@@ -1,0 +1,17 @@
+{
+  "name": "paint-formula-offline",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo Static HTML app",
+    "sync": "npx cap sync",
+    "android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/core": "latest",
+    "@capacitor/android": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest"
+  }
+}

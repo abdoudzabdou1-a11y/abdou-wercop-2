@@ -1,0 +1,6 @@
+{
+  "appId": "com.paintformula.offline",
+  "appName": "Paint Formula Offline",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
