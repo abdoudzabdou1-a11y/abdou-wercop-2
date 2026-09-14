@@ -20,16 +20,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
-          node-version: 22
-          - name: Setup Node.js
-  uses: actions/setup-node@v5
-  with:
-    node-version: 22
+          node-version: "22"
 
       - name: Setup Java
         uses: actions/setup-java@v5
         with:
-          distribution: temurin
+          distribution: "temurin"
           java-version: "17"
 
       - name: Install dependencies
